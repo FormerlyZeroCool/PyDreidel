@@ -46,3 +46,5 @@ while len(players) > 1:
             players.remove(player)
             playersLost += 1
     print("The pot has", pot, "gelt in it!")
+if(len(players) > 0):
+    print(players[0].name, "Has won it all!")
