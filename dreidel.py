@@ -22,6 +22,8 @@ while len(players) > 1:
         player.gelt -= 1
         print(player.name,"gave one gelt to the pot")
     print()
+
+    playersLost = 0
     for x in range(len(players)):
         player = players[x - playersLost]
         rollValue = random.randint(1, 4)
